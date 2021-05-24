@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wtapp
+  labels:
+    app: wtapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: wtapp
+  template:
+    metadata:
+      labels:
+        app: wtapp
+    spec:
+      containers:
+      - image: ors09/wtapp
+        name: wtapp
