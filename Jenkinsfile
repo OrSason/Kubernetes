@@ -16,12 +16,7 @@ pipeline {
             }
         }
      
-        
-      stage('Trigger cd job') {
-      steps{
-        build job: 'k8s-cd', propagate: true, wait: true
-      }
-    }
+      
         
     }
 }
