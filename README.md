@@ -5,10 +5,10 @@
  
  
  
- app-deploy.yml - deploy a replica set with app
- app-services.yml - route traffic to app's pods
- config-map.yml - contains basic configuration for the app
- *hidden secrets.yml  - store app and db secrets
+ - app-deploy.yml - deploy a replica set with app
+ - app-services.yml - route traffic to app's pods
+ - config-map.yml - contains basic configuration for the app
+ - *hidden secrets.yml  - store app and db secrets
  
 
 ## CD - Jenkinsfile
