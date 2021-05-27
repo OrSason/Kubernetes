@@ -1,4 +1,4 @@
-# Kuberntes - weight tracker app deployment
+# Kuberntes - Weight tracker app deployment
 
  This repo contains script for deploying weight tracker app on k8s aks cluster 
  Weight tracker app repo - https://github.com/OrSason/Node-Weight-Tracker-k8s.git
