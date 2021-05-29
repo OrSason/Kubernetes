@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wtapp
-        image: ors09/wtapp2
+        image: ors09/wtapp2:latest
         envFrom:
           - configMapRef:
              name: config-app
