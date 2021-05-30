@@ -6,7 +6,7 @@ pipeline {
               
         stage('Deploy to k8s cluster') {
             steps {
-            
+            sh 'kubectl delete -f app-deploy.yml'
             sh 'kubectl apply -f app-deploy.yml'
             }
         }
