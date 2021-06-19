@@ -14,7 +14,6 @@
  
 
 ## CD - Jenkinsfile
- - delete old pods
  - deploying new pods with updated image
  - display active pods
 
